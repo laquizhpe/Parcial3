@@ -21,6 +21,7 @@ public class Empleados {
         this.lista = new Empleado[capacidad];
         this.contador = 0;
     }
+    
 
     /**
      * Da de alta un nuevo empleado en la lista.
