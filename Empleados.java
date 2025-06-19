@@ -13,7 +13,7 @@ public class Empleados {
         if (contador < lista.length) {
             lista[contador++] = empleado;
         } else {
-            System.out.println("No se pueden añadir más empleados.");
+            System.out.println(Textos.NO_MAS_EMPLEADOS);
         }
     }
 
@@ -27,7 +27,7 @@ public class Empleados {
     }
 
     public void mostrarEmpleados() {
-        System.out.println("Lista de Empleados:");
+        System.out.println(Textos.LISTA_EMPLEADOS);
         for (Empleado empleado : lista) {
             if (empleado != null) {
                 System.out.println(empleado);
